@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="operators">
+        <h1>Operator</h1>
+        <label for="a">Enter value for 'a':</label>
+        <input type="number" id="a"><br>
+    
+        <label for="b">Enter value for 'b':</label>
+        <input type="number" id="b">
+    </div>
+
+    <div class="operators-content">
+      <div class="dropdown">
+        <button class="dropbtn">Arithmetic Ooerator</button>
+        <div class="dropdown-content">
+          <a href="#addition" onclick="add()">
+            Addition
+            <p id="addition"></p>
+          </a>
+          <a href="#subration" onclick="sub()">
+            Subration
+            <p id="subration"></p>
+          </a>
+          <a href="#multiplication" onclick="multi()">
+            Multiplication
+            <p id="multiplication"></p>
+          </a>
+          <a href="#divison" onclick="div()">
+            Division
+            <p id="division"></p>
+          </a>
+          <a href="#modulus" onclick="mod()">
+            Modulus
+            <p id="modulus"></p>
+          </a>
+          <a href="#increment" onclick="increment()">
+            Increment
+            <p id="increment"></p>
+          </a>
+          <a href="#decrement" onclick="decrement()">
+            Decrement
+            <p id="decrement"></p>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="dropdown">
+        <button class="dropbtn">Assignment Operators</button>
+        <div class="dropdown-content">
+            <a href="#assign" onclick="assign()">Assign</a>
+            <p id="assign"></p>
+            <a href="#addassign" onclick="addassign()">Add and Assign</a>
+            <p id="addassign"></p>
+            <a href="#subassign" onclick="subassign()">Subtract and Assign</a>
+            <p id="subassign"></p>
+            <a href="#multiplyassign" onclick="multiplyassign()">Subtract and Assign</a>
+            <p id="multiplyassign"></p>
+            <a href="#divassign" onclick="divassign()">Division and Assign</a>
+            <p id="divassign"></p>
+            <a href="#modassign" onclick="modassign()">Modulus and Assign</a>
+            <p id="modassign"></p>
+        </div>
+      </div>
+
+
+      <div class="dropdown">
+        <button class="dropbtn">Comparison Operators</button>
+        <div class="dropdown-content">
+            <a href="#equal" onclick="equal()">Equal</a>
+            <p id="equal"></p>
+            <a href="#notequal" onclick="notequal()">NotEqual</a>
+            <p id="notequal"></p>
+            <a href="#greater" onclick="greater()">Greater Than</a>
+            <p id="greater"></p>
+            <a href="#lessthan" onclick="lessthan()">Less Than</a>
+            <p id="lessthan"></p>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button class="dropbtn">Logical Operators</button>
+        <div class="dropdown-content">
+            <a href="#and" onclick="and()">Logical And</a>
+            <p id="and"></p>
+            <a href="#or" onclick="or()">Logical Or</a>
+            <p id="or"></p>
+            <a href="#not" onclick="or()">Logical Not</a>
+            <p id="not"></p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

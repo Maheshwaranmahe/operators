@@ -1,0 +1,41 @@
+.operator hi{
+    text-align: center;
+}
+.dropbtn {
+  padding: 18px;
+  font-size: 18px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid black;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
